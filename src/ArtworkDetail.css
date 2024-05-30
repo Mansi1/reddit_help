@@ -1,0 +1,22 @@
+.ArtworkDetails {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .ArtworkDetails img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .ArtworkDetails h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ArtworkDetails p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
