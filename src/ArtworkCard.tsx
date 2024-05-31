@@ -13,7 +13,10 @@ const ArtworkCard = ({ artwork, delay, onArtworkClick }: ArtworkCardProps) => {
       style={{ animationDelay: `${delay}s` }}
       onClick={() => onArtworkClick(artwork)}
     >
-      <img src={artwork.thumbnail?.lqip} alt={artwork.thumbnail?.alt_text} />
+      <img
+        src={`https://www.artic.edu/iiif/2/${artwork.image_id}/full/100,/0/default.jpg`}
+        alt={artwork.thumbnail?.alt_text}
+      />
       <h3>{artwork.title}</h3>
       {artwork.artist_title && <p>Artist: {artwork.artist_title}</p>}
       {artwork.date_display && <p>Date: {artwork.date_display}</p>}

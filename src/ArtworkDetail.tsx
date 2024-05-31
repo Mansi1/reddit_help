@@ -11,7 +11,7 @@ export const ArtworkDetail = ({
   return (
     <div className="ArtworkDetails">
       <img
-        src={`https://www.artic.edu/iiif/2/${artwork.image_id}/full/843,/0/default.jpg`}
+        src={`https://www.artic.edu/iiif/2/${artwork.image_id}/full/500,/0/default.jpg`}
         alt={artwork.title}
       />
       <h2>{artwork.title}</h2>
